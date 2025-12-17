@@ -1,4 +1,3 @@
-````md
 # Toxicity Triage (DE) – Uni-Demo (😀 OK / 😐 REVIEW / 😡 BLOCK)
 
 Kleine ML-Web-App (Flask), die deutschen Text in drei Stufen klassifiziert:
@@ -15,7 +14,7 @@ Kleine ML-Web-App (Flask), die deutschen Text in drei Stufen klassifiziert:
 ### 1) Setup
 ```bash
 uv sync
-````
+```
 
 > Falls du kein Lockfile nutzt: Abhängigkeiten stehen im `pyproject.toml`. Du kannst auch direkt `uv run ...` verwenden und `uv` installiert on-demand.
 
