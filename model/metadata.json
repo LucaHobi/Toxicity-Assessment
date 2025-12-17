@@ -1,0 +1,16 @@
+{
+  "labels": [
+    "OK",
+    "REVIEW",
+    "BLOCK"
+  ],
+  "selected_candidate": "char_tfidf",
+  "val_macro_f1": 0.6284716101611924,
+  "test_macro_f1": 0.5490649342673363,
+  "emoji": {
+    "OK": "😀",
+    "REVIEW": "😐",
+    "BLOCK": "😡"
+  },
+  "min_confidence_for_hard_decision": 0.52
+}

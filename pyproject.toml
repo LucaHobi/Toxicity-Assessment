@@ -1,0 +1,14 @@
+[project]
+name = "toxicityassessment"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=4.4.1",
+    "flask>=3.1.2",
+    "gunicorn>=23.0.0",
+    "joblib>=1.5.3",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.8.0",
+]

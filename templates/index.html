@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Toxicity Assessment (DE)</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <main class="wrap">
+        <h1>Toxicity Assessment</h1>
+        <p class="hint">
+            Klassifikation in 😀 OK / 😐 REVIEW / 😡 BLOCK.
+        </p>
+        <textarea id="text" rows="6" placeholder="Text eingeben (Deutsch) ..."></textarea>
+        <div class="row">
+            <button id="btn">Bewerten</button>
+            <button id="clear" class="ghost">Leeren</button>
+        </div>
+        <section id="out" class="card hidden">
+            <div id="badge" class="badge badge--review">
+                <span class="emoji" id="emoji">😐</span>
+                <span class="label" id="label">REVIEW</span>
+            </div>
+            <p id="why" class="why hidden"></p>
+            <div class="conf">
+                <div class="conf__row">
+                    <span class="conf__label">Confidence</span>
+                    <span class="conf__value" id="confText">0.000</span>
+                </div>
+                <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                    <div class="bar__fill" id="confBar" style="width: 0%"></div>
+                </div>
+                <div class="meta" id="meta"></div>
+            </div>
+            <details class="details">
+                <summary>Details (Probabilities)</summary>
+                <pre id="probs"></pre>
+            </details>
+        </section>
+        <script src="/static/app.js"></script>
+</body>
+</html>
