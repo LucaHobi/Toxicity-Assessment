@@ -1,4 +1,4 @@
-# Toxicity Triage (DE) – Uni-Demo (😀 OK / 😐 REVIEW / 😡 BLOCK)
+# Toxicity Assessment
 
 Kleine ML-Web-App (Flask), die deutschen Text in drei Stufen klassifiziert:
 - 😀 **OK** (nicht toxisch)
